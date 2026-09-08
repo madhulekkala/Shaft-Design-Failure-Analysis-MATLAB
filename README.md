@@ -1,5 +1,5 @@
-# Shaft-Design-Failure-Analysis-MATLAB
-# 🔧 Shaft Design & Failure Analysis Using MATLAB
+#Shaft-Design-Failure-Analysis-MATLAB
+ Shaft Design & Failure Analysis Using MATLAB
 
 A MATLAB-based engineering tool for the **design, stress analysis, failure analysis, and optimization of mechanical shafts** subjected to combined bending and torsional loading.
 
@@ -7,7 +7,7 @@ This project applies concepts from **Machine Design, Strength of Materials, Fail
 
 ---
 
-## 📌 Project Overview
+PROJECT OVERVIEW
 
 Mechanical shafts are commonly subjected to simultaneous **bending moments and torsional loads** during power transmission. Incorrect shaft sizing can result in excessive deformation, yielding, fatigue failure, or sudden fracture.
 
@@ -27,8 +27,7 @@ The program can calculate:
 * Engineering plots for design evaluation
 
 ---
-
-## 🎯 Objectives
+#OBJECTIVE
 
 The main objectives of this project are:
 
@@ -45,55 +44,55 @@ The main objectives of this project are:
 
 ---
 
-## ⚙️ Engineering Concepts Used
+# Engineering Concepts Used
 
-### 1. Power-Torque Relationship
+## 1. Power-Torque Relationship
 
 The transmitted torque is calculated using:
 
-$$
-P = \frac{2\pi NT}{60}
-$$
+
+P= 2PiNT/60
+
 
 Therefore,
 
-$$
-T = \frac{60P}{2\pi N}
-$$
+
+T = 60p/2PiN
+
 
 where:
 
-* \(P\) = Power in watts
-* \(N\) = Rotational speed in RPM
-* \(T\) = Torque in N·m
+* P= Power in watts
+* N = Rotational speed in RPM
+* T = Torque in N·m
 
 ---
 
-### 2. Bending Stress
+#2. BENDING STRESS
 
 For a solid circular shaft:
 
-$$
-\sigma_b = \frac{32M}{\pi d^3}
-$$
+
+sigma_b = 32M/pi d^3
+
 
 where:
 
-* \(M\) = Bending moment
-* \(d\) = Shaft diameter
+* M = Bending moment
+* d = Shaft diameter
 
----
 
-### 3. Torsional Shear Stress
 
-$$
-\tau = \frac{16T}{\pi d^3}
-$$
+# 3. Torsional Shear Stress
+
+
+tau = 16T/pi d^3
+
 
 where:
 
-* \(T\) = Torque
-* \(d\) = Shaft diameter
+* T= Torque
+* d = Shaft diameter
 
 ---
 
@@ -101,25 +100,25 @@ where:
 
 For combined bending and torsion:
 
-$$
-\sigma_{vm} =
-\sqrt{\sigma_b^2 + 3\tau^2}
-$$
+
+sigma_{vm} =
+sqrt{sigma_b^2 + 3tau^2}
+
 
 The shaft is considered safe when:
 
-$$
-\sigma_{vm} \leq \frac{S_y}{n}
-$$
+
+sigma_{vm} <=frac{S_y}{n}
+
 
 where:
 
-* \(S_y\) = Yield strength
-* \(n\) = Required factor of safety
+* S_y = Yield strength
+* n = Required factor of safety
 
 ---
 
-## 🧪 Failure Theories
+# 🧪 Failure Theories
 
 The project evaluates shaft safety using multiple failure criteria.
 
@@ -137,9 +136,9 @@ The Von Mises criterion is used for determining equivalent stress under combined
 
 The results from different theories can be compared to understand their effect on shaft sizing.
 
----
 
-## 🔄 Fatigue Analysis
+
+##  Fatigue Analysis
 
 Rotating shafts can experience cyclic bending stresses, making fatigue an important design consideration.
 
@@ -156,7 +155,7 @@ The project can be extended to include:
 
 ### Goodman Relation
 
-$$
+
 \frac{\sigma_a}{S_e}
 +
 \frac{\sigma_m}{S_{ut}}
@@ -174,7 +173,7 @@ where:
 
 ---
 
-# 🏗️ Project Workflow
+#  Project Workflow
 
 ```text
              START
@@ -252,7 +251,7 @@ Shaft-Design-Failure-Analysis-MATLAB/
 
 ---
 
-# 💻 Software Requirements
+#  Software Requirements
 
 * MATLAB R2022a or later
 * MATLAB basic plotting functionality
@@ -264,7 +263,7 @@ Optional:
 
 ---
 
-# 🚀 How to Run
+#  How to Run
 
 ### Step 1 — Clone the repository
 
@@ -300,7 +299,7 @@ The program calculates the stresses and determines the minimum safe shaft diamet
 
 ---
 
-# 📊 Example Design Parameters
+#  Example Design Parameters
 
 | Parameter              |   Example Value |
 | ---------------------- | --------------: |
@@ -316,7 +315,7 @@ These values are provided as an example and can be modified by the user.
 
 ---
 
-# 📈 Expected Outputs
+#  Expected Outputs
 
 The MATLAB program generates:
 
@@ -344,7 +343,7 @@ The MATLAB program generates:
 
 ---
 
-# 📐 Sample Output
+#  Sample Output
 
 ```text
 ========================================
@@ -371,7 +370,7 @@ Design Status          : SAFE
 
 ---
 
-# 🔬 Applications
+#  Applications
 
 This type of analysis can be applied to:
 
@@ -386,22 +385,22 @@ This type of analysis can be applied to:
 
 ---
 
-# ⭐ Key Features
+#  Key Features
 
-* ✅ Automated shaft sizing
-* ✅ Combined bending and torsion analysis
-* ✅ Von Mises stress calculation
-* ✅ Tresca failure analysis
-* ✅ Principal stress analysis
-* ✅ Factor-of-safety calculation
-* ✅ Fatigue analysis
-* ✅ Diameter optimization
-* ✅ MATLAB visualization
-* ✅ Modular program structure
+*  Automated shaft sizing
+*  Combined bending and torsion analysis
+*  Von Mises stress calculation
+*  Tresca failure analysis
+*  Principal stress analysis
+*  Factor-of-safety calculation
+*  Fatigue analysis
+*  Diameter optimization
+*  MATLAB visualization
+*  Modular program structure
 
 ---
 
-# 🧠 Skills Demonstrated
+#  Skills Demonstrated
 
 ### Mechanical Engineering
 
@@ -449,7 +448,7 @@ The project can be further developed by adding:
 
 ---
 
-# 👨‍💻 Author
+#  Author
 
 **Madhu Lekkala**
 
@@ -466,12 +465,12 @@ Mechanical Engineering Student
 
 ---
 
-# 📜 Disclaimer
+#  Disclaimer
 
 This project is intended for **educational and preliminary engineering analysis**. Actual industrial shaft design should consider applicable design standards, detailed loading conditions, stress concentrations, manufacturing processes, material variability, fatigue data, dynamic effects, and appropriate safety requirements.
 
 ---
 
-# ⭐ Project Goal
+#  Project Goal
 
 > **To develop a computational engineering tool that combines mechanical design theory with MATLAB-based numerical analysis to evaluate and optimize shaft performance under realistic loading conditions.**
