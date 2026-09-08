@@ -223,7 +223,7 @@ where:
 
 ---
 
-# 📁 Repository Structure
+#  Repository Structure
 
 ```text
 Shaft-Design-Failure-Analysis-MATLAB/
