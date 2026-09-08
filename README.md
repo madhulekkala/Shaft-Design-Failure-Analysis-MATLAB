@@ -118,7 +118,7 @@ where:
 
 ---
 
-# 🧪 Failure Theories
+#  Failure Theories
 
 The project evaluates shaft safety using multiple failure criteria.
 
